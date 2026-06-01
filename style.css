@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 90%;
+   background: #ffffff;
+background: linear-gradient(180deg, rgb(2, 23, 58) 0%, rgb(94, 161, 149) 100%);
+    min-height: 100vh;
+    margin: 0 auto;
+}
+.content{
+color: #ffffff;
+width: 70%;
+margin: 0 auto;
+min-height: 100vh;
+font-style: italic;
+}
+header{
+    height: 150px;
+    background-color:rgb(2, 23, 58) 0%;
+    position: relative;
+}
+.search{
+    position: absolute;
+    top: 70px;
+    left: 70%;
+    width: 400px;
+    height: 100px;
+    color: #ffffff;
+}
+.searchinput{
+border-radius: 10px;
+height: 25px;
+cursor: pointer;
+}
+.search label{
+    cursor: pointer;
+}
+.topmenu{
+    display: flex;
+    position: absolute;
+    width: 30%;
+    top: 70px;
+    left: 25%;
+    width: 30%;
+    margin: 0 auto;
+}
+.topmenu li{
+    padding-left: 50px;
+    list-style-type: none;
+
+}
+.topmenu li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 22px;
+}
+.sidebar{
+    width: 25%;
+    min-height: 100vh;
+    background: linear-gradient(180deg, rgb(2, 23, 58) 0%,  rgb(94, 161, 149) 100%);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+background: linear-gradient(180deg, rgb(2, 23, 58) 0%, rgb(94, 161, 149) 100%);
+}
+.container{
+    display: flex;
+    
+}
+.logo{
+    width: 250px;
+    
+}
+.dropbtn {
+ 
+  color: white;
+  padding: 18px;
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  background-color: rgb(11, 18, 78) ;
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.container, .container1{
+    display: flex;
+    gap: 20px;
+    padding-top:30px;
+}
+.container1 div{
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+.container1 div p{
+width: 260px;
+color: #ffffff;
+padding-top: 10px;
+font-size: 18px;
+}
+.drop{
+    width: 260px;
+}
+.container1 div img{
+    width: 260px;
+    border-radius: 10px;
+}
+.container1 div:hover{
+    border-radius: 10px;
+    border: 3px solid rgb(17, 19, 136);
+}
+.home{
+   padding-top: 50px;
+   background-size: cover;
+
+}
+.home p{
+    padding-bottom: 20px;
+}
+h1{
+    text-align:center ;
+}
+.contacts{
+    padding-top: 50px;
+    font-size: 18px;
+    font-style: italic;
+    
+}
+.contacts p{
+    padding: 20px;
+}
+footer{
+    height: 150px;
+    background-color:  rgb(94, 161, 149) 100% ;
+}
